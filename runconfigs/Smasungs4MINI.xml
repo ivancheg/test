@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Samss4Mini" parallel="false">
+	<test verbose="1" name="Register">
+		<parameter name="deviceName" value="GT_I9192"/>
+		<classes>
+			<class name="android.tests.register.Register"></class>
+		</classes>
+	</test>
+</suite>

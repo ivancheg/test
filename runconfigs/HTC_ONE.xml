@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Nexus 4" parallel="false">
+	
+	<test verbose="1" name="Smoke1">
+		<parameter name="deviceName" value="HTC_ONE"/>
+		<classes>
+			<class name="android.tests.register.Register"></class>
+		</classes>
+	</test> 
+</suite>
